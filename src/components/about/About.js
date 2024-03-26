@@ -11,8 +11,6 @@ const About = () => {
       <AboutMe />
       <Title title="My" subtitle="Services" />
       <MyServices />
-      <Title title="Fun" subtitle="Fact" />
-      <FunFact />
     </section>
   );
 };

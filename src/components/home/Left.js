@@ -10,14 +10,14 @@ import { AiFillTwitterCircle } from "react-icons/ai";
 
 const Left = () => {
   const [text] = useTypewriter({
-    words: ["Web Developer", "Full Stack Developer", "UI Designer"],
+    words: ["Web Developer", "Full Stack Developer", "MERN Stack Developer"],
     loop: true,
     typeSpeed: 30,
     deleteSpeed: 20,
     delaySpeed: 2000,
   });
   return (
-    <div className="w-5/12 h-full bg-bodyColor rounded-2xl shadow-testShadow z-10">
+    <div className="w-5/12 h-full bg-bodyColor rounded-2xl shadow-testShadow z-10 hidden sm:block">
       <div className="w-full h-3/5">
         <img
           className="w-full h-full object-cover rounded-2xl"
@@ -45,9 +45,9 @@ const Left = () => {
             <span className="hover:text-designColor duration-300 cursor-pointer text-xl">
               <FaLinkedin />
             </span>
-            <span className="hover:text-designColor duration-300 cursor-pointer text-xl">
+            {/* <span className="hover:text-designColor duration-300 cursor-pointer text-xl">
               <SiYoutubemusic />
-            </span>
+            </span> */}
             <span className="hover:text-designColor duration-300 cursor-pointer text-xl">
               <BsFacebook />
             </span>
@@ -65,7 +65,7 @@ const Left = () => {
         {/* button */}
         <div className="flex h-14">
           <a
-            className="w-1/2  border-t-[1px] border-t-zinc-800 borderRight text-sm tracking-wide uppercase hover:text-designColor
+            className="w-full  border-t-[1px] border-t-zinc-800 borderRight text-md tracking-wide uppercase hover:text-designColor
            duration-200"
             href={CV}
             target="_blank"
@@ -75,12 +75,12 @@ const Left = () => {
               Download CV <BsCloudLightningFill />{" "}
             </button>
           </a>
-          <button
+          {/* <button
             className="w-1/2 h-full flex justify-center items-center gap-2 border-t-[1px] border-t-zinc-800 text-sm tracking-wide uppercase hover:text-designColor
            duration-200 "
           >
             Contact Me <FiSend />{" "}
-          </button>
+          </button> */}
         </div>
       </div>
     </div>

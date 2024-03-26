@@ -89,7 +89,7 @@ const Contact = () => {
           <p className=" flex justify-between w-full text-lg text-[#ccc] py-4 border-b-[1px] border-b-zinc-800">
             Email:
             <span className=" bg-designColor text-gray-700 text-sm font-titleFont font-medium px-2 rounded-md flex items-center  justify-center">
-              vaskar@gmail.com
+              vaskar.ghosh.99.23@gmail.com
             </span>
           </p>
           <p className=" flex justify-between w-full text-lg text-[#ccc] py-4 border-b-[1px] border-b-zinc-800">

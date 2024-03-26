@@ -12,21 +12,17 @@ const Education = () => {
         <div>
           <ResumeCard
             badge=""
-            title="Wev Developre"
-            subtitle="Facebook Inc."
-            des="Justo ea sed vero erat rebum gubergren, sit magna tempor dolore nonumy dolore dolore vero. Et aliquyam ea et et."
+            title="Start Wev Development"
+            subtitle=""
+            des="
+            Embarked on web development journey driven by self-enthusiasm, leveraging online resources and practice to master skills, fueled by a passion for creating innovative digital solutions."
           />
           <ResumeCard
-            badge="2011-2012"
-            title="Front-end Developre"
-            subtitle="google Inc."
-            des="Justo ea sed vero erat rebum gubergren, sit magna tempor dolore nonumy dolore dolore vero. Et aliquyam ea et et."
-          />
-          <ResumeCard
-            badge="2009-2010"
-            title="Senior Developre"
-            subtitle="ReactBD.com"
-            des="Justo ea sed vero erat rebum gubergren, sit magna tempor dolore nonumy dolore dolore vero. Et aliquyam ea et et."
+            badge="2023-2024"
+            title="Multi Vendor Website"
+            subtitle=""
+            des="
+            Developed a robust multi-vendor ecommerce platform using the MERN stack. Designed a sleek client-side UI offering seamless shopping experiences, an intuitive admin panel for centralized management, and a robust seller dashboard empowering vendors to efficiently manage products, orders, and analytics in our multi-vendor ecommerce platform."
           />
         </div>
       </div>
@@ -40,19 +36,21 @@ const Education = () => {
           badge="2018-2022"
           title="Varendra University"
           subtitle="Rajshahi"
-          des="Sed ut diam invidunt duo lorem, amet sit eirmod et elitr lorem consetetur. Duo amet elitr duo lorem erat sanctus."
+          des="Completed Bachelor of Science in Computer Science and Engineering with a notable 3.61 CGPA, showcasing academic excellence."
         />
+
         <ResumeCard
-          badge="2022"
-          title="Programming Course"
-          subtitle="UK"
-          des="Sed ut diam invidunt duo lorem, amet sit eirmod et elitr lorem consetetur. Duo amet elitr duo lorem erat sanctus."
-        />
-        <ResumeCard
-          badge="2023"
+          badge="2021-2023"
           title="MERN Stack Developer"
           subtitle="Dhaka"
-          des="Sed ut diam invidunt duo lorem, amet sit eirmod et elitr lorem consetetur. Duo amet elitr duo lorem erat sanctus."
+          des="
+          Learn MERN stack development by mastering MongoDB for database management, Express.js for backend logic, React.js for dynamic frontend, and Node.js for server-side operations. Utilize online resources, tutorials, and practical projects to gain proficiency in building full-stack web applications with this powerful and versatile technology stack.
+          
+          
+          
+          
+          
+          "
         />
       </div>
     </div>

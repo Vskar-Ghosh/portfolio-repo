@@ -4,6 +4,9 @@ import workImageOne from "./work/workImageOne.png";
 import workImageTwo from "./work/workImageTwo.png";
 import workImageThree from "./work/workImageThree.png";
 import workImageFour from "./work/workImageFour.png";
+import workImageFive from "./work/workImageFive.png";
+import workImageSix from "./work/workImageSix.png";
+import workImageSeven from "./work/workImageSeven.png";
 import blogImgOne from "./blog/blogImgOne.jpg";
 import blogImgTwo from "./blog/blogImgTwo.jpg";
 import blogImgThree from "./blog/blogImgThree.jpg";
@@ -18,6 +21,9 @@ export {
   workImageTwo,
   workImageThree,
   workImageFour,
+  workImageFive,
+  workImageSix,
+  workImageSeven,
   blogImgOne,
   blogImgTwo,
   blogImgThree,

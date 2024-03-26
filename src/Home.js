@@ -22,9 +22,9 @@ const Home = () => {
   const [sidenav, setSidenav] = useState(false);
   return (
     <div className=" w-[85%] h-[85%] bg-transparent text-white z-50 flex items-start justify-between gap-2">
-      <div className="w-16 h-96 bg-transparent flex flex-col gap-4 ">
-        <div className=" w-full h-20 bg-bodyColor rounded-3xl flex justify-center items-center cursor-pointer group">
-          {/* Home Icons */}
+      <div className="w-16 h-96 bg-transparent flex flex-col gap-4 mt-64 pt-5 ">
+        {/* <div className=" w-full h-20 bg-bodyColor rounded-3xl flex justify-center items-center cursor-pointer group">
+          Home Icons
           <div
             onClick={() => setSidenav(true)}
             className="flex flex-col gap-1.5 overflow-hidden"
@@ -33,7 +33,7 @@ const Home = () => {
             <span className="w-8 h-[2px] bg-textColor inline-block group-hover:bg-designColor"></span>
             <span className="w-8 h-[2px] bg-textColor inline-block -translate-x-2 group-hover:translate-x-0 transition-transfrom duration-300 group-hover:bg-designColor"></span>
           </div>
-        </div>
+        </div> */}
         {/* other icons */}
 
         {/* sidenav start here */}
@@ -58,7 +58,7 @@ const Home = () => {
           </div>
         )}
 
-        <div className=" w-full h-80 bg-bodyColor rounded-3xl py-6 flex flex-col items-center justify-between">
+        <div className=" w-full h-60 bg-bodyColor rounded-3xl py-6 flex flex-col items-center justify-between">
           <span
             onClick={() =>
               setAbout(true) &
@@ -104,7 +104,7 @@ const Home = () => {
               Projects
             </span>
           </span>
-          <span
+          {/* <span
             onClick={() =>
               setAbout(false) &
               setResume(false) &
@@ -118,7 +118,7 @@ const Home = () => {
             <span className=" absolute text-black font-medium text-xs uppercase bg-designColor px-4 py-[1px] rounded-xl left-0 translate-x-8 group-hover:translate-x-12 transition-all duration-300 z-20 opacity-0 group-hover:opacity-100 ">
               Blog
             </span>
-          </span>
+          </span> */}
           <span
             onClick={() =>
               setAbout(false) &
@@ -134,12 +134,12 @@ const Home = () => {
               Contact
             </span>
           </span>
-          <span className="w-full h-6 text-textColor text-xl flex items-center justify-center hover:text-designColor duration-300 cursor-pointer relative group">
+          {/* <span className="w-full h-6 text-textColor text-xl flex items-center justify-center hover:text-designColor duration-300 cursor-pointer relative group">
             <BsTelephonePlusFill />{" "}
             <span className=" absolute text-black font-medium text-xs uppercase bg-designColor px-4 py-[1px] rounded-xl left-0 translate-x-8 group-hover:translate-x-12 transition-all duration-300 z-20 opacity-0 group-hover:opacity-100 ">
               Call
             </span>
-          </span>
+          </span> */}
         </div>
       </div>
 
@@ -147,7 +147,7 @@ const Home = () => {
         {/* left part start */}
         <Left />
         {/* right part start */}
-        <div className="w-8/12 h-[95%] bg-bodyColor">
+        <div className="sm:w-8/12 h-[95%] bg-bodyColor w-full">
           <div className="w-full h-[96%] overflow-y-scroll scrollbar-thin scrollbar-thumb-[#646464]">
             {about && (
               <motion.div
